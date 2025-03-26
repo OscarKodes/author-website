@@ -1,4 +1,43 @@
 body {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2.5rem;
+}
+
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.flex-container>div {
+    background: #8f721a;
+}
+
+.book-cover {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 2px white solid;
+}
+
+.substack {
+    background-color: rgb(255, 255, 255);
+    /* margin: 2rem 0 0; */
+    /* padding-top: 2rem; */
+    height: 20rem;
+    width: 100%
+}
+
+@media only screen and (max-width: 960px) {
+    .flex-container {
+        width: 100%;
+    }
+
+    .book-cover {
+        border: 1px white solid;
+    }
+
 }
