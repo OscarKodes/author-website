@@ -21,11 +21,13 @@ ul.menu {
 }
 
 .flex-container {
-
+    background-color: white;
     display: flex;
     justify-content: center;
     height: 100%;
     margin: 0 auto;
+    gap: 1px;
+    border-bottom: 1px solid white;
 }
 
 .flex-container>div {
@@ -37,7 +39,6 @@ ul.menu {
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 2px white solid;
 }
 
 .substack {
@@ -120,9 +121,7 @@ ul.menu {
         width: 100%;
     }
 
-    .book-cover {
-        border: 1px white solid;
-    }
+    .book-cover {}
 
     .substack {
         height: 12rem;
@@ -131,7 +130,7 @@ ul.menu {
     /* ABOUT PAGE */
     .about-container {
         background-color: #c0cfb2;
-        padding: 2rem 2rem;
+        padding: 2rem 10%;
     }
 
     .about-pic {
