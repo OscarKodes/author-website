@@ -84,14 +84,11 @@ ul.menu {
 }
 
 .cta-text {
+    margin: 0 2rem;
     padding-top: 2rem;
 }
 
 /* BOOK PAGE */
-
-.book-title {
-    margin: 2rem 0;
-}
 
 .book-description-container {
     background-color: #d3e2d2;
@@ -99,8 +96,8 @@ ul.menu {
 }
 
 .book-page-cover {
-    padding-top: 2rem;
     width: 20rem;
+    padding-bottom: 2rem;
 }
 
 .book-text {
@@ -108,7 +105,7 @@ ul.menu {
 }
 
 .buy-btn {
-    margin: 1rem 0 3rem
+    margin: 2rem 0 3rem
 }
 
 
@@ -149,6 +146,10 @@ ul.menu {
 
     .book-description-container {
         padding: 2rem 2rem;
+    }
+
+    .book-page-cover {
+        width: 60%;
     }
 
 }
