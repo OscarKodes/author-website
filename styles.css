@@ -1,6 +1,23 @@
 body {
     text-align: center;
-    margin-top: 2.5rem;
+    margin: 2.5rem auto 0;
+    width: 50rem;
+    background-color: #000000;
+}
+
+ul.menu {
+    width: 50rem;
+    margin: 0 auto;
+}
+
+.title-name {
+    padding: 5rem 0 1rem 0;
+    background-color: white;
+    margin: 0;
+}
+
+.active-page {
+    color: #8ba888 !important;
 }
 
 .flex-container {
@@ -8,13 +25,13 @@ body {
     display: flex;
     justify-content: center;
     height: 100%;
-    width: 60rem;
     margin: 0 auto;
 }
 
 .flex-container>div {
     background: #8f721a;
 }
+
 
 .book-cover {
     width: 100%;
@@ -24,20 +41,114 @@ body {
 }
 
 .substack {
-    background-color: rgb(255, 255, 255);
-    /* margin: 2rem 0 0; */
-    /* padding-top: 2rem; */
-    height: 20rem;
-    width: 100%
+    border: none !important;
+    height: 12rem;
+    width: 100%;
+    background-color: white;
 }
 
+.icon-container {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    background-color: #44624a;
+}
+
+.social-icon {
+    width: 3rem;
+    margin: 1rem;
+    padding: .5rem;
+    border: 1px grey solid;
+    border-radius: 20%;
+    background-color: white;
+}
+
+/* ABOUT PAGE */
+.about-container {
+    background-color: #c0cfb2;
+    padding: 3rem 12rem;
+}
+
+.about-pic {
+    width: 6rem;
+    border-radius: 100%;
+    border: 2px #44624a solid;
+}
+
+.about-text {
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.footer {
+    background-color: white;
+}
+
+.cta-text {
+    padding-top: 2rem;
+}
+
+/* BOOK PAGE */
+
+.book-title {
+    margin: 2rem 0;
+}
+
+.book-description-container {
+    background-color: #d3e2d2;
+    padding: 2rem 12rem;
+}
+
+.book-page-cover {
+    padding-top: 2rem;
+    width: 20rem;
+}
+
+.book-text {
+    text-align: left;
+}
+
+.buy-btn {
+    margin: 1rem 0 3rem
+}
+
+
+/* MOBILE */
+
 @media only screen and (max-width: 960px) {
-    .flex-container {
+    body {
+        width: 100%;
+    }
+
+    ul.menu {
         width: 100%;
     }
 
     .book-cover {
         border: 1px white solid;
+    }
+
+    .substack {
+        height: 12rem;
+    }
+
+    /* ABOUT PAGE */
+    .about-container {
+        background-color: #c0cfb2;
+        padding: 2rem 2rem;
+    }
+
+    .about-pic {
+        width: 5rem;
+    }
+
+    .about-text {
+        padding: 1rem 0;
+    }
+
+    /* BOOK PAGE */
+
+    .book-description-container {
+        padding: 2rem 2rem;
     }
 
 }
