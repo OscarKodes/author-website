@@ -44,7 +44,7 @@ ul.menu {
 }
 
 .book-cover:hover {
-    filter: brightness(1.20);
+    transform: scale(1.05);
 }
 
 .substack {
