@@ -25,21 +25,21 @@ ul.menu {
         linear-gradient(to bottom, rgba(255, 255, 255, 0.35),
             rgba(255, 255, 255, 0.35)),
         url(imgs/leaves.png);
-    height: 0.8rem;
+    height: 1.5rem;
 }
 
 .top-roof {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10),
             rgba(0, 0, 0, 0.70)),
         url(imgs/leaves.png);
-    height: 2.5rem;
+    height: 3rem;
 }
 
 .mid-roof {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10),
             rgba(0, 0, 0, 0.70)),
         url(imgs/leaves.png);
-    height: 1.5rem;
+    height: 2rem;
 }
 
 .bot-front-shelf {
@@ -47,7 +47,7 @@ ul.menu {
         linear-gradient(to bottom, rgba(255, 255, 255, 0.35),
             rgba(255, 255, 255, 0.35)),
         url(imgs/leaves.png);
-    height: 1.2rem;
+    height: 1.5rem;
 }
 
 .flex-container {
