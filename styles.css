@@ -59,7 +59,6 @@ ul.menu {
 }
 
 .flex-container {
-    background-color: #bbb097;
     display: flex;
     justify-content: center;
     height: 100%;
@@ -163,7 +162,7 @@ ul.menu {
 }
 
 .buy-btn {
-    margin: 2rem 0 3rem
+    margin: 2rem 0 3rem;
 }
 
 
