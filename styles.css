@@ -20,24 +20,64 @@ ul.menu {
     color: #8ba888 !important;
 }
 
+.front-shelf {
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.35),
+            rgba(255, 255, 255, 0.35)),
+        url(imgs/leaves.png);
+    height: 0.8rem;
+}
+
+.top-roof {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10),
+            rgba(0, 0, 0, 0.70)),
+        url(imgs/leaves.png);
+    height: 2.5rem;
+}
+
+.mid-roof {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10),
+            rgba(0, 0, 0, 0.70)),
+        url(imgs/leaves.png);
+    height: 1.5rem;
+}
+
+.bot-front-shelf {
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.35),
+            rgba(255, 255, 255, 0.35)),
+        url(imgs/leaves.png);
+    height: 1.2rem;
+}
+
 .flex-container {
-    background-color: white;
+    background-color: #bbb097;
     display: flex;
     justify-content: center;
     height: 100%;
     margin: 0 auto;
-    padding: 0 4px;
-    gap: 8px;
+    padding: 0 8px;
+    /* border-top: 5px rgb(0, 0, 0) solid; */
+    /* border-bottom: 5px rgb(0, 0, 0) solid; */
+    gap: 16px;
+    /* Background pattern from Toptal Subtle Patterns */
+    /* background-image: linear-gradient(to bottom, rgba(0, 27, 7, 0.4),
+            rgba(98, 155, 114, 0.4)),
+        url(imgs/full-bloom.png); */
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.0)),
+        url(imgs/sakura.png);
 }
 
-.flex-container>div {
+/* .flex-container>div {
     background: #ffffff;
-}
+} */
 
 
 .book-cover {
     width: 100%;
-    margin: 6px 0;
+    margin: 8px 0;
     padding: 0;
     -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.65);
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.65);
@@ -157,4 +197,10 @@ ul.menu {
         width: 75%;
     }
 
+}
+
+
+/* TO HIDE ELEMENTS BUT KEEP THEIR SPACE */
+.hidden {
+    visibility: hidden;
 }
