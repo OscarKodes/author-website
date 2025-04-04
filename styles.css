@@ -22,9 +22,9 @@ ul.menu {
 
 .top-front-shelf {
     background-image:
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.15),
-            rgba(255, 255, 255, 0.15)),
-        url(imgs/small-leaves.png);
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.55),
+            rgba(255, 255, 255, 0.55)),
+        url(imgs/leaves.png);
     height: 0.8rem;
 }
 
@@ -32,21 +32,21 @@ ul.menu {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.35),
             rgba(255, 255, 255, 0.35)),
-        url(imgs/small-leaves.png);
+        url(imgs/leaves.png);
     height: 0.8rem;
 }
 
 .top-roof {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10),
             rgba(0, 0, 0, 0.70)),
-        url(imgs/small-leaves.png);
+        url(imgs/leaves.png);
     height: 2.5rem;
 }
 
 .mid-roof {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.10),
             rgba(0, 0, 0, 0.70)),
-        url(imgs/small-leaves.png);
+        url(imgs/leaves.png);
     height: 1.5rem;
 }
 
@@ -54,7 +54,7 @@ ul.menu {
     background-image:
         linear-gradient(to bottom, rgba(255, 255, 255, 0.35),
             rgba(255, 255, 255, 0.35)),
-        url(imgs/small-leaves.png);
+        url(imgs/leaves.png);
     height: 1.2rem;
 }
 
@@ -148,6 +148,9 @@ ul.menu {
 .book-description-container {
     background-color: #d3e2d2;
     padding: 2rem 12rem;
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15),
+            rgba(0, 0, 0, 0.15)),
+        url(imgs/sakura.png); */
 }
 
 .book-page-cover {
