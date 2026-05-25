@@ -1,4 +1,5 @@
- alert("testing message")
+//  alert("testing message")
+
 //  NAVBAR ------------------
 
  document.getElementById("navBar").innerHTML =
