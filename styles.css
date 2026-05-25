@@ -103,7 +103,6 @@ ul.menu {
 
 .icon-container {
     padding-top: 1rem;
-    padding-bottom: 5rem;
     background-color: #44624a;
 }
 
@@ -114,6 +113,11 @@ ul.menu {
     border: 1px grey solid;
     border-radius: 20%;
     background-color: white;
+}
+
+#bottom-padding {
+    padding-bottom: 5rem;
+    background-color: #44624a;
 }
 
 /* ABOUT PAGE */
