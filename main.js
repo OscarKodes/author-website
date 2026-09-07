@@ -12,9 +12,9 @@
             +'aria-expanded="false">'
                 +'Books'
         +'</a>'
-        +'<ul class="dropdown-menu">'
-            +'<li><a class="dropdown-item" href="book_takeout-witches.html">The Takeout Witches</a></li>'
-        +'</ul>'
+        // +'<ul class="dropdown-menu">'
+        //     +'<li><a class="dropdown-item" href="book_takeout-witches.html">The Takeout Witches</a></li>'
+        // +'</ul>'
     +'</li>'
     
     // // About Page
